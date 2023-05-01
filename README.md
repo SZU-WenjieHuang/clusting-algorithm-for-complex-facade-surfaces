@@ -27,8 +27,6 @@
 - #### 03 First Round Selection: Clusting:
   In Step 01, we obtained the parameterized data as the representation for each pannel, and then used the K-means algorithm for unsupervised learning clustering, so that pannels with similar shape coefficients could use the same template for production.\
   ![image](https://user-images.githubusercontent.com/82434538/235467893-251b5d4d-56b0-46af-b320-7c73a8a5caaf.png)\
-  parameterized data of flat panels
-  ![image](https://user-images.githubusercontent.com/82434538/235467990-af1b4a21-ab63-4eb0-8c62-b2ada69ed2b6.png)
   ![image](https://user-images.githubusercontent.com/82434538/235468032-cb8f4b7b-2488-4d7a-9bf0-bf1757cd28d9.png)\
   Based on the SSE and Silhouette data, we selected the optimal number of clusters and used it to classify all the panels.
 
